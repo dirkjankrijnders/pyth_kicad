@@ -1,0 +1,20 @@
+(module 2PIN_Screw_Block (layer F.Cu) (tedit 5416E7D8)
+  (fp_text reference CON1 (at 0 7.112) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value 2PIN_SCREWTERMINAL (at -18.288 -8.636) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_line (start 0.75184 -5.00126) (end 0.75184 5.00126) (layer F.SilkS) (width 0.381))
+  (fp_line (start -3.1496 5.00126) (end 6.14934 5.00126) (layer F.SilkS) (width 0.381))
+  (fp_line (start 6.14934 5.00126) (end 6.14934 -5.04952) (layer F.SilkS) (width 0.381))
+  (fp_line (start -3.1496 -5.00126) (end 6.14934 -5.00126) (layer F.SilkS) (width 0.381))
+  (fp_line (start 5.99948 4.95046) (end 5.99948 5.04952) (layer F.SilkS) (width 0.381))
+  (pad 1 thru_hole circle (at 3.29946 -2.49936) (size 2.99974 2.99974) (drill 1.6002) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 3.29946 2.49936) (size 2.99974 2.99974) (drill 1.6002) (layers *.Cu *.Mask F.SilkS))
+  (model walter/conn_screw/mstba_2,5-2-g-5,08.wrl
+    (at (xyz 0.13 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+)
